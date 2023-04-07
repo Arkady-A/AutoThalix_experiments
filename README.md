@@ -41,7 +41,6 @@ Also, for those measurements, you can access the results by accessing
 ```python
 from thales.experiments import OpenCircuitPotential
 
-...
 
 experiment = OpenCircuitPotential(
     connection=connection,
