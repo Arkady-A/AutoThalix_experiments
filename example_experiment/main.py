@@ -1,10 +1,10 @@
 from autothalix.measurements import CyclicVoltammetry, LinearSweepVoltammetry, OpenCircuitPotential, Impedance
-from utils import initialize_experiment
+from autothalix.utils import initialize_experiment
 import os
 from autothalix.logging import logger
 
 run_name = 'example_name'
-zennium_connection, zahner_zennium = initialize_experiment(run_name)
+zennium_connection, zahner_zennium = initialize_experiment()
 
 logger.info('Any additional information')  # you can write any comments like that
 ocp1 = OpenCircuitPotential(wr_connection=zahner_zennium,
