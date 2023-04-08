@@ -1,4 +1,12 @@
-# Quickstart
+# Description 
+
+Repository that contains an example experiment that will demonstrate how to use AutoThalix package
+
+Link to AutoThalix: https://github.com/Arkady-A/AutoThalix
+
+Link to **documentation**: https://autothalix.readthedocs.io/en/latest/usage.html
+
+# Quick Overview 
 
 When you initialize a class (eg `LinearSweepVoltammetry`) it will take
 parameters from baseline.yaml file. You can override these parameters
