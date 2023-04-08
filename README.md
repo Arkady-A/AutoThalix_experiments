@@ -6,6 +6,19 @@ Link to AutoThalix: https://github.com/Arkady-A/AutoThalix
 
 Link to **documentation**: https://autothalix.readthedocs.io/en/latest/usage.html
 
+# Qucikstart
+
+## Installation
+
+```bash
+git clone https://github.com/Arkady-A/AutoThalix_experiments.git 
+cd AutoThalix_experiments
+virtualenv -p python3 venv # or python -m venv venv on Windows
+source venv/bin/activate # or venv\Scripts\activate.bat on Windows
+pip install -r requirements.txt # or pip3 install -r requirements.txt
+```
+
+
 # Quick Overview 
 
 When you initialize a class (eg `LinearSweepVoltammetry`) it will take
